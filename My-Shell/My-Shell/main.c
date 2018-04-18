@@ -1,5 +1,5 @@
 //
-//  MAIN.C
+//  main.c
 //  My-Shell
 //
 //  Created by Larson Carter on 4/16/18.
@@ -94,6 +94,10 @@ static int command(int input, int first, int last)
             _exit(EXIT_FAILURE); // If child fails
         
     }
+    
+    //  Lets User Know The Program Is Done Running.
+    
+    puts("Program Done Running!");
     
     if (input != 0)
         
